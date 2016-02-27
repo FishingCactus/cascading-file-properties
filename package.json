@@ -1,0 +1,42 @@
+{
+  "name": "cascading-file-properties",
+  "version": "0.0.0",
+  "description": "Assign properties to file in a CSS-like manner",
+  "homepage": "",
+  "author": {
+    "name": "Julien Hamaide",
+    "email": "julien.hamaide@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "file",
+    "property",
+    "cascading"
+  ],
+  "devDependencies": {
+    "eslint-config-xo-space": "^0.7.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "/cascading-file-properties",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
