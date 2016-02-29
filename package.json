@@ -2,7 +2,7 @@
   "name": "cascading-file-properties",
   "version": "0.0.0",
   "description": "Assign properties to file in a CSS-like manner",
-  "homepage": "",
+  "homepage": "https://github.com/FishingCactus/cascading-file-properties",
   "author": {
     "name": "Julien Hamaide",
     "email": "julien.hamaide@gmail.com",
@@ -36,7 +36,7 @@
       "mocha": true
     }
   },
-  "repository": "/cascading-file-properties",
+  "repository": "FishingCactus/cascading-file-properties",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
