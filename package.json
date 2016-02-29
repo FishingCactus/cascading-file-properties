@@ -43,6 +43,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "css": "^2.2.1"
+    "css": "^2.2.1",
+    "string": "^3.3.1"
   }
 }
